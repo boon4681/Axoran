@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Axoranbow",
+  "description": "lol",
+  "authors": [
+    "boon4681"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/axoran/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "boon4681.axoran.Axoran"
+    ]
+  },
+  "mixins": [
+    "boon4681.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
