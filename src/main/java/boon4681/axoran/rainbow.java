@@ -1,28 +1,16 @@
 package boon4681.axoran;
 
-import boon4681.axoran.mixin.a;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.*;
-import net.minecraft.client.render.entity.EntityRendererFactory;
-import net.minecraft.client.render.entity.LivingEntityRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;
-import net.minecraft.client.render.entity.model.AxolotlEntityModel;
 import net.minecraft.client.render.entity.model.EntityModel;
-import net.minecraft.client.render.entity.model.SheepEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.passive.AxolotlEntity;
-import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Util;
 
 import java.awt.*;
-import java.util.Optional;
-import java.util.function.BiFunction;
 
 @Environment(EnvType.CLIENT)
 public class rainbow<T extends Entity, M extends EntityModel<T>> extends FeatureRenderer<T, M>{
