@@ -4,10 +4,8 @@
   "package": "boon4681.axoran.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-<<<<<<< HEAD
-    "a"
-=======
->>>>>>> 7d03edd... Initial commit
+    "a",
+    "b"
   ],
   "client": [
   ],
