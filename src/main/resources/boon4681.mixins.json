@@ -4,8 +4,8 @@
   "package": "boon4681.axoran.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "a",
-    "b"
+    "AxolotlRendererMixin",
+    "AxolotlEatAxolotlMixin"
   ],
   "client": [
   ],
